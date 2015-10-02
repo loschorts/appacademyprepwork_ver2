@@ -53,6 +53,7 @@ describe RPNCalculator do
   end
 
   it "adds two numbers" do
+    byebug
     calculator.push(2)
     calculator.push(3)
     calculator.plus
