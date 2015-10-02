@@ -1,3 +1,4 @@
+require 'byebug'
 # # Topics
 # * arrays
 # * arithmetic
