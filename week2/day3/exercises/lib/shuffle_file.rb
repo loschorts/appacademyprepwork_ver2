@@ -9,6 +9,7 @@ def shuffle_file
   File.open("#{filename}-- shuffled.txt", 'w') do |f|
     f.puts file.shuffle
   end
+  puts 'shuffle complete'
 end
 
 shuffle_file if __FILE__==$0
